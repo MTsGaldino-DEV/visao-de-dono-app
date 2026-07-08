@@ -3,10 +3,33 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@expo/metro-runtime": "~56.0.15",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "^3.1.1",
+    "@react-native-community/netinfo": "^12.0.1",
+    "@react-navigation/native": "^7.3.1",
+    "@react-navigation/stack": "^7.10.3",
+    "@supabase/supabase-js": "^2.108.1",
+    "base64-arraybuffer": "^1.0.2",
     "expo": "~56.0.11",
+    "expo-dev-client": "~56.0.22",
+    "expo-file-system": "~56.0.8",
+    "expo-image-manipulator": "^56.0.18",
+    "expo-image-picker": "^56.0.17",
+    "expo-linear-gradient": "~56.0.4",
+    "expo-location": "^56.0.17",
     "expo-status-bar": "~56.0.4",
     "react": "19.2.3",
-    "react-native": "0.85.3"
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-gesture-handler": "^3.0.1",
+    "react-native-maps": "1.27.2",
+    "react-native-pager-view": "8.0.1",
+    "react-native-safe-area-context": "^5.8.0",
+    "react-native-screens": "^4.25.2",
+    "react-native-svg": "15.15.4",
+    "react-native-tab-view": "^4.3.1",
+    "react-native-web": "^0.21.2"
   },
   "scripts": {
     "start": "expo start",
@@ -14,5 +37,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "typescript": "~6.0.3"
+  }
 }

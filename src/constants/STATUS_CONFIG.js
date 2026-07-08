@@ -1,0 +1,58 @@
+export const STATUS_CONFIG = {
+  cadastrado: {
+    bg: '#fefce8',
+    color: '#a16207',
+    border: '#fde68a',
+    label: 'Cadastrado',
+    pinColor: '#eab308',
+  },
+  pendente: {
+    bg: '#fff7ed',
+    color: '#c2410c',
+    border: '#fed7aa',
+    label: 'Pendente',
+    pinColor: '#f97316',
+  },
+  enviado: {
+    bg: '#e0f2fe',
+    color: '#0369a1',
+    border: '#bae6fd',
+    label: 'Enviado',
+    pinColor: '#0ea5e9',
+  },
+  acionado: {
+    bg: '#eff6ff',
+    color: '#1d4ed8',
+    border: '#bfdbfe',
+    label: 'Acionado',
+    pinColor: '#3b82f6',
+  },
+  em_execucao: {
+    bg: '#faf5ff',
+    color: '#7c3aed',
+    border: '#ddd6fe',
+    label: 'Em Execução',
+    pinColor: '#7c3aed',
+  },
+  concluido: {
+    bg: '#f0fdf4',
+    color: '#15803d',
+    border: '#bbf7d0',
+    label: 'Concluído',
+    pinColor: '#16a34a',
+  },
+  cancelado: {
+    bg: '#fef2f2',
+    color: '#b91c1c',
+    border: '#fecaca',
+    label: 'Cancelado',
+    pinColor: '#ef4444',
+  },
+  reprovado: {
+    bg: '#fff1f2',
+    color: '#dc2626',
+    border: '#fecdd3',
+    label: 'Reprovado',
+    pinColor: '#dc2626',
+  },
+};

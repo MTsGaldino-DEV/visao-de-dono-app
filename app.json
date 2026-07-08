@@ -15,10 +15,30 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.mtsgaldino.visaodedonoapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAfOmkyqcfM4MuzuFMSd8lxwzZmJtsW_a8"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "react-native-maps",
+        {
+          "googleMapsApiKey": "AIzaSyAfOmkyqcfM4MuzuFMSd8lxwzZmJtsW_a8"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2843f089-16c1-46ad-b7bc-1c2d13476d22"
+      }
+    },
+    "owner": "mtsgaldino1"
   }
 }
